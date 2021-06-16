@@ -1,0 +1,42 @@
+body{
+  background-color:#E4E9FD;
+  background-image: -webkit-linear-gradient(65deg,#A683E3 50%, #E4E9FD 50%);
+  min-height :1000px;
+  font-family: 'halventica neue'
+}
+.box{
+  width:320px;
+  margin:auto;
+  padding:1px 2px;
+  border-radius:5px;
+}
+.heading{
+  background-color: #A683E3;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 80px;
+      text-align:center;
+        font-size: 12px;
+}
+.list-box{
+    background-color: white;
+    margin-top:30px;
+    padding-left:25px;
+    padding-bottom: 10px;
+}
+.list{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  border-bottom: 1px grey;
+  width: 100%;
+  padding: 12px;
+  margin: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+
+  padding: 12px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}

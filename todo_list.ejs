@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <div class="box" id="heading">
+    <h1 ><%=todayDate%></h1>
+  </div>
+
+<div class="box ">
+    <% for (var i = 0; i<newItems.length ; i++) { %>
+      <form class="item">
+        <input type="checkbox">
+        <p class="list checked"><%=newItems[i]%></p>
+        </form>
+    <% } %>
+
+      <form class="input" action="/" method="post">
+        <input type="text" name="addItem" placeholder="Add Item">
+        <button type="submit" name="button">+</button>
+    </form>
+</div>
+<footer>copyright@ 2021-2011</footer>
+  </body>
+</html>
